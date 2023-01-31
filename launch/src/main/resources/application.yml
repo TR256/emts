@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /emts
+
+spring:
+  profiles:
+    active: file,common,model,dao,service,service-impl,fweb,bweb
